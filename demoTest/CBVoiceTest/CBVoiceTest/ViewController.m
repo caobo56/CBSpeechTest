@@ -38,6 +38,7 @@
     //把语音识别的代理设置为 self
     _recognizer.delegate = self;
 
+    //发送语音认证请求(首先要判断设备是否支持语音识别功能)
     [self requestJurisdiction];
     
     self.audioEngine = [[AVAudioEngine alloc]init];
