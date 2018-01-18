@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45BB0703FE468D93F930AD37 /* libPods-CBVoiceTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF16E26D560560385FE68319 /* libPods-CBVoiceTest.a */; };
+		A8CB014420102765001432F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CB014320102765001432F6 /* AppDelegate.m */; };
+		A8CB014720102765001432F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CB014620102765001432F6 /* ViewController.m */; };
+		A8CB014A20102765001432F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8CB014820102765001432F6 /* Main.storyboard */; };
+		A8CB014C20102765001432F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8CB014B20102765001432F6 /* Assets.xcassets */; };
+		A8CB014F20102765001432F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8CB014D20102765001432F6 /* LaunchScreen.storyboard */; };
+		A8CB015220102765001432F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CB015120102765001432F6 /* main.m */; };
+		A8CB015C20102765001432F6 /* CBVoiceTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CB015B20102765001432F6 /* CBVoiceTestTests.m */; };
+		A8CB016720102765001432F6 /* CBVoiceTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CB016620102765001432F6 /* CBVoiceTestUITests.m */; };
+		A8CB017720102923001432F6 /* libAXSpeechManager.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A8CB017520102923001432F6 /* libAXSpeechManager.tbd */; };
+		A8CB017820102923001432F6 /* Speech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8CB017620102923001432F6 /* Speech.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8CB015820102765001432F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8CB013720102765001432F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8CB013E20102765001432F6;
+			remoteInfo = CBVoiceTest;
+		};
+		A8CB016320102765001432F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8CB013720102765001432F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8CB013E20102765001432F6;
+			remoteInfo = CBVoiceTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31E412715C35C66A62E2DAA1 /* Pods-CBVoiceTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBVoiceTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CBVoiceTest/Pods-CBVoiceTest.debug.xcconfig"; sourceTree = "<group>"; };
+		8CE398E906BCEDC08244DC7E /* Pods-CBVoiceTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBVoiceTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-CBVoiceTest/Pods-CBVoiceTest.release.xcconfig"; sourceTree = "<group>"; };
+		A8CB013F20102765001432F6 /* CBVoiceTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBVoiceTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8CB014220102765001432F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A8CB014320102765001432F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A8CB014520102765001432F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A8CB014620102765001432F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A8CB014920102765001432F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8CB014B20102765001432F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8CB014E20102765001432F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8CB015020102765001432F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8CB015120102765001432F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8CB015720102765001432F6 /* CBVoiceTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CBVoiceTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8CB015B20102765001432F6 /* CBVoiceTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBVoiceTestTests.m; sourceTree = "<group>"; };
+		A8CB015D20102765001432F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8CB016220102765001432F6 /* CBVoiceTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CBVoiceTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8CB016620102765001432F6 /* CBVoiceTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBVoiceTestUITests.m; sourceTree = "<group>"; };
+		A8CB016820102765001432F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8CB017520102923001432F6 /* libAXSpeechManager.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libAXSpeechManager.tbd; path = usr/lib/libAXSpeechManager.tbd; sourceTree = SDKROOT; };
+		A8CB017620102923001432F6 /* Speech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Speech.framework; path = System/Library/Frameworks/Speech.framework; sourceTree = SDKROOT; };
+		FF16E26D560560385FE68319 /* libPods-CBVoiceTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CBVoiceTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8CB013C20102765001432F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8CB017720102923001432F6 /* libAXSpeechManager.tbd in Frameworks */,
+				A8CB017820102923001432F6 /* Speech.framework in Frameworks */,
+				45BB0703FE468D93F930AD37 /* libPods-CBVoiceTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8CB015420102765001432F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8CB015F20102765001432F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8CB013620102765001432F6 = {
+			isa = PBXGroup;
+			children = (
+				A8CB014120102765001432F6 /* CBVoiceTest */,
+				A8CB015A20102765001432F6 /* CBVoiceTestTests */,
+				A8CB016520102765001432F6 /* CBVoiceTestUITests */,
+				A8CB014020102765001432F6 /* Products */,
+				A8CB017420102922001432F6 /* Frameworks */,
+				CDC492FB21C9382DBD91B694 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A8CB014020102765001432F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8CB013F20102765001432F6 /* CBVoiceTest.app */,
+				A8CB015720102765001432F6 /* CBVoiceTestTests.xctest */,
+				A8CB016220102765001432F6 /* CBVoiceTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8CB014120102765001432F6 /* CBVoiceTest */ = {
+			isa = PBXGroup;
+			children = (
+				A8CB014220102765001432F6 /* AppDelegate.h */,
+				A8CB014320102765001432F6 /* AppDelegate.m */,
+				A8CB014520102765001432F6 /* ViewController.h */,
+				A8CB014620102765001432F6 /* ViewController.m */,
+				A8CB014820102765001432F6 /* Main.storyboard */,
+				A8CB014B20102765001432F6 /* Assets.xcassets */,
+				A8CB014D20102765001432F6 /* LaunchScreen.storyboard */,
+				A8CB015020102765001432F6 /* Info.plist */,
+				A8CB015120102765001432F6 /* main.m */,
+			);
+			path = CBVoiceTest;
+			sourceTree = "<group>";
+		};
+		A8CB015A20102765001432F6 /* CBVoiceTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8CB015B20102765001432F6 /* CBVoiceTestTests.m */,
+				A8CB015D20102765001432F6 /* Info.plist */,
+			);
+			path = CBVoiceTestTests;
+			sourceTree = "<group>";
+		};
+		A8CB016520102765001432F6 /* CBVoiceTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8CB016620102765001432F6 /* CBVoiceTestUITests.m */,
+				A8CB016820102765001432F6 /* Info.plist */,
+			);
+			path = CBVoiceTestUITests;
+			sourceTree = "<group>";
+		};
+		A8CB017420102922001432F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8CB017520102923001432F6 /* libAXSpeechManager.tbd */,
+				A8CB017620102923001432F6 /* Speech.framework */,
+				FF16E26D560560385FE68319 /* libPods-CBVoiceTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDC492FB21C9382DBD91B694 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31E412715C35C66A62E2DAA1 /* Pods-CBVoiceTest.debug.xcconfig */,
+				8CE398E906BCEDC08244DC7E /* Pods-CBVoiceTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8CB013E20102765001432F6 /* CBVoiceTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8CB016B20102765001432F6 /* Build configuration list for PBXNativeTarget "CBVoiceTest" */;
+			buildPhases = (
+				6B4FEB5F55060EB487FE98D4 /* [CP] Check Pods Manifest.lock */,
+				A8CB013B20102765001432F6 /* Sources */,
+				A8CB013C20102765001432F6 /* Frameworks */,
+				A8CB013D20102765001432F6 /* Resources */,
+				A51C81D405E8A92838B8ED80 /* [CP] Embed Pods Frameworks */,
+				5657DCF4A7B4F8932B413E92 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CBVoiceTest;
+			productName = CBVoiceTest;
+			productReference = A8CB013F20102765001432F6 /* CBVoiceTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8CB015620102765001432F6 /* CBVoiceTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8CB016E20102765001432F6 /* Build configuration list for PBXNativeTarget "CBVoiceTestTests" */;
+			buildPhases = (
+				A8CB015320102765001432F6 /* Sources */,
+				A8CB015420102765001432F6 /* Frameworks */,
+				A8CB015520102765001432F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8CB015920102765001432F6 /* PBXTargetDependency */,
+			);
+			name = CBVoiceTestTests;
+			productName = CBVoiceTestTests;
+			productReference = A8CB015720102765001432F6 /* CBVoiceTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8CB016120102765001432F6 /* CBVoiceTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8CB017120102765001432F6 /* Build configuration list for PBXNativeTarget "CBVoiceTestUITests" */;
+			buildPhases = (
+				A8CB015E20102765001432F6 /* Sources */,
+				A8CB015F20102765001432F6 /* Frameworks */,
+				A8CB016020102765001432F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8CB016420102765001432F6 /* PBXTargetDependency */,
+			);
+			name = CBVoiceTestUITests;
+			productName = CBVoiceTestUITests;
+			productReference = A8CB016220102765001432F6 /* CBVoiceTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8CB013720102765001432F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = caobo56;
+				TargetAttributes = {
+					A8CB013E20102765001432F6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A8CB015620102765001432F6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A8CB013E20102765001432F6;
+					};
+					A8CB016120102765001432F6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A8CB013E20102765001432F6;
+					};
+				};
+			};
+			buildConfigurationList = A8CB013A20102765001432F6 /* Build configuration list for PBXProject "CBVoiceTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8CB013620102765001432F6;
+			productRefGroup = A8CB014020102765001432F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8CB013E20102765001432F6 /* CBVoiceTest */,
+				A8CB015620102765001432F6 /* CBVoiceTestTests */,
+				A8CB016120102765001432F6 /* CBVoiceTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8CB013D20102765001432F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8CB014F20102765001432F6 /* LaunchScreen.storyboard in Resources */,
+				A8CB014C20102765001432F6 /* Assets.xcassets in Resources */,
+				A8CB014A20102765001432F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8CB015520102765001432F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8CB016020102765001432F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5657DCF4A7B4F8932B413E92 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CBVoiceTest/Pods-CBVoiceTest-resources.sh",
+				"${PODS_ROOT}/CBBasicUtils/src/BasicClass/LvInputView.xib",
+				"${PODS_ROOT}/CBBasicUtils/src/BasicVC/ABwebView.xib",
+				"${PODS_ROOT}/CBBasicUtils/src/Catergory/image/cb_error@2x.png",
+				"${PODS_ROOT}/CBBasicUtils/src/Catergory/image/cb_error@3x.png",
+				"${PODS_ROOT}/CBBasicUtils/src/Catergory/image/cb_success@2x.png",
+				"${PODS_ROOT}/CBBasicUtils/src/Catergory/image/cb_success@3x.png",
+				"${PODS_ROOT}/CBBasicUtils/src/Resource/bank.plist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CBVoiceTest/Pods-CBVoiceTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B4FEB5F55060EB487FE98D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CBVoiceTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A51C81D405E8A92838B8ED80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CBVoiceTest/Pods-CBVoiceTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8CB013B20102765001432F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8CB014720102765001432F6 /* ViewController.m in Sources */,
+				A8CB015220102765001432F6 /* main.m in Sources */,
+				A8CB014420102765001432F6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8CB015320102765001432F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8CB015C20102765001432F6 /* CBVoiceTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8CB015E20102765001432F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8CB016720102765001432F6 /* CBVoiceTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8CB015920102765001432F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8CB013E20102765001432F6 /* CBVoiceTest */;
+			targetProxy = A8CB015820102765001432F6 /* PBXContainerItemProxy */;
+		};
+		A8CB016420102765001432F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8CB013E20102765001432F6 /* CBVoiceTest */;
+			targetProxy = A8CB016320102765001432F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8CB014820102765001432F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8CB014920102765001432F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8CB014D20102765001432F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8CB014E20102765001432F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8CB016920102765001432F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A8CB016A20102765001432F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8CB016C20102765001432F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31E412715C35C66A62E2DAA1 /* Pods-CBVoiceTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3SLH35FY4;
+				INFOPLIST_FILE = CBVoiceTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cb.CBVoiceTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8CB016D20102765001432F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CE398E906BCEDC08244DC7E /* Pods-CBVoiceTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3SLH35FY4;
+				INFOPLIST_FILE = CBVoiceTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cb.CBVoiceTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A8CB016F20102765001432F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CBVoiceTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cb.CBVoiceTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CBVoiceTest.app/CBVoiceTest";
+			};
+			name = Debug;
+		};
+		A8CB017020102765001432F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CBVoiceTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cb.CBVoiceTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CBVoiceTest.app/CBVoiceTest";
+			};
+			name = Release;
+		};
+		A8CB017220102765001432F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CBVoiceTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cb.CBVoiceTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CBVoiceTest;
+			};
+			name = Debug;
+		};
+		A8CB017320102765001432F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CBVoiceTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cb.CBVoiceTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CBVoiceTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8CB013A20102765001432F6 /* Build configuration list for PBXProject "CBVoiceTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8CB016920102765001432F6 /* Debug */,
+				A8CB016A20102765001432F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8CB016B20102765001432F6 /* Build configuration list for PBXNativeTarget "CBVoiceTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8CB016C20102765001432F6 /* Debug */,
+				A8CB016D20102765001432F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8CB016E20102765001432F6 /* Build configuration list for PBXNativeTarget "CBVoiceTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8CB016F20102765001432F6 /* Debug */,
+				A8CB017020102765001432F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8CB017120102765001432F6 /* Build configuration list for PBXNativeTarget "CBVoiceTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8CB017220102765001432F6 /* Debug */,
+				A8CB017320102765001432F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8CB013720102765001432F6 /* Project object */;
+}

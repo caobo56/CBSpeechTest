@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lHs-Gs-2cP">
+                                <rect key="frame" x="60" y="467" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.26842531559999999" green="0.32797044520000002" blue="0.41110819580000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="jjy-7Y-Ddj"/>
+                                    <constraint firstAttribute="width" constant="100" id="u8T-Xf-okf"/>
+                                </constraints>
+                                <state key="normal" title="开始录音">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="startBtnPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xrq-4M-a4L"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mIG-0y-f7A">
+                                <rect key="frame" x="215" y="467" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.26842531559999999" green="0.32797044520000002" blue="0.41110819580000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="6rE-X0-a1d"/>
+                                    <constraint firstAttribute="width" constant="100" id="Zbq-pY-jRF"/>
+                                </constraints>
+                                <state key="normal" title="结束录音">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="endBtnPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8rG-JO-rMT"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="录音内容" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zqN-Nl-cGK">
+                                <rect key="frame" x="20" y="120" width="335" height="200"/>
+                                <color key="backgroundColor" red="0.3532959819" green="0.72396296260000004" blue="0.64296394589999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="M1H-NI-39O"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="64X-AP-IcD">
+                                <rect key="frame" x="20" y="360" width="335" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="64X-AP-IcD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="0JF-it-hrM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zqN-Nl-cGK" secondAttribute="trailing" constant="20" id="1HC-aj-mlg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lHs-Gs-2cP" secondAttribute="bottom" constant="100" id="8dQ-gy-xL7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mIG-0y-f7A" secondAttribute="trailing" constant="60" id="Sjx-K9-MuO"/>
+                            <constraint firstItem="64X-AP-IcD" firstAttribute="top" secondItem="zqN-Nl-cGK" secondAttribute="bottom" constant="40" id="WIm-Ow-RUv"/>
+                            <constraint firstItem="zqN-Nl-cGK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="YJf-Ob-Z85"/>
+                            <constraint firstItem="zqN-Nl-cGK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="Yyn-z2-N7o"/>
+                            <constraint firstItem="lHs-Gs-2cP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="lw0-1d-Prz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="mIG-0y-f7A" secondAttribute="bottom" constant="100" id="mXD-20-zHC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="64X-AP-IcD" secondAttribute="trailing" constant="20" id="rbm-6U-zYN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="endBtn" destination="mIG-0y-f7A" id="6yk-Du-UXG"/>
+                        <outlet property="startBtn" destination="lHs-Gs-2cP" id="lea-jm-mjM"/>
+                        <outlet property="stateLb" destination="64X-AP-IcD" id="mTq-z2-Yl8"/>
+                        <outlet property="voiceContentLb" destination="zqN-Nl-cGK" id="Hfa-vb-jaN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
