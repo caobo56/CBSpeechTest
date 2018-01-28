@@ -6,24 +6,24 @@
       https://www.jianshu.com/p/0e7d5dea3aad
 
 代码过程：
-###添加Speech Framework
+### 添加Speech Framework
 
 TARGET --》General -》Linked Frameworks and Libraries
 添加 Speech
 并在项目中添加speech头文件
 
-###申请权限
+### 申请权限
 
 添加NSSpeechRecognitionUsageDescription 和 NSMicrophoneUsageDescription 权限申请
 
-###在info-plist 中添加
+### 在info-plist 中添加
 ```
     <key>NSSpeechRecognitionUsageDescription</key>
     <string>测试请求使用语音识别</string>
     <key>NSMicrophoneUsageDescription</key>
     <string>测试请求使用麦克风权限</string>
 ```
-###添加录音和转换控件
+### 添加录音和转换控件
 
 创建一个语音控制器。创建一个语音识别请求。创建一个管理语音任务管理器。还有一个录音设备。并且给管理器添加代理方法。
 ```
@@ -35,7 +35,7 @@ TARGET --》General -》Linked Frameworks and Libraries
 @property (nonatomic,strong)AVAudioEngine * audioEngine;
 ```
 
-###将设备识别语音为中文
+### 将设备识别语音为中文
 
  NSLocale *locale = [[NSLocale alloc] initWithLocaleIdentifier:@"zh-CN"];
     _recognizer = [[SFSpeechRecognizer alloc] initWithLocale:locale];
@@ -43,7 +43,7 @@ TARGET --》General -》Linked Frameworks and Libraries
     //把语音识别的代理设置为 self
     _recognizer.delegate = self;
 
-###发送语音认证请求(首先要判断设备是否支持语音识别功能)
+### 发送语音认证请求(首先要判断设备是否支持语音识别功能)
 ```
     //发送语音认证请求(首先要判断设备是否支持语音识别功能)
     [self requestJurisdiction];
@@ -84,11 +84,11 @@ TARGET --》General -》Linked Frameworks and Libraries
     }];
 }
 ```
-###创建录音引擎。
+### 创建录音引擎。
 ```
 self.audioEngine = [[AVAudioEngine alloc]init];
 ```
-###按钮点击事件
+### 按钮点击事件
 ```
 - (IBAction)startBtnPress:(id)sender {
     if ([self.audioEngine isRunning]) {
@@ -100,7 +100,7 @@ self.audioEngine = [[AVAudioEngine alloc]init];
     }
 }
 ```
-###开始录音
+### 开始录音
 
 ```
 -(void)startRecording{
@@ -148,7 +148,7 @@ self.audioEngine = [[AVAudioEngine alloc]init];
     self.voiceContentLb.text = @"姑娘,聊十块钱的";
 }
 ```
-###结束录音
+### 结束录音
 ```
 - (IBAction)endBtnPress:(id)sender {
     if ([self.audioEngine isRunning]) {
@@ -163,7 +163,7 @@ self.audioEngine = [[AVAudioEngine alloc]init];
     self.stateLb.text = @"";
 }
 ```
-###设置代理方法。
+### 设置代理方法。
 ```
 //当语音识别操作可用性发生改变时会被调用
 - (void)speechRecognizer:(SFSpeechRecognizer *)speechRecognizer availabilityDidChange:(BOOL)available{
